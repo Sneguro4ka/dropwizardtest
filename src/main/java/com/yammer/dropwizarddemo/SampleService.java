@@ -22,7 +22,6 @@ public class SampleService extends Service<SampleConfiguration> {
         listPlayers.add(new Player("Ronaldinho" , 99 ));
     }
 
-
     // List of commands
     public static boolean addPlayer(Player argPlayer){
         logger.info("checking if player(" + argPlayer.getName() + ":" + argPlayer.getId() + ") exists");
